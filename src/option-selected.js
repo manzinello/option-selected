@@ -2,10 +2,11 @@ const optionSelected = () => {
   let selects = document.getElementsByTagName("select");
 
   for (let select of selects) {
-    if (select.value != "") {
+    if (select.getAttribute("value") != "") {
       let options = select.getElementsByTagName("option");
+
       for (let option of options) {
-        if (select.value === option.value) {
+        if (select.getAttribute("value") == option.getAttribute("value")) {
           option.selected = true;
         } else {
           option.selected = false;
