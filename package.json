@@ -1,0 +1,19 @@
+{
+  "name": "option-selected",
+  "version": "0.1.0",
+  "description": "value attribute in select will make the option selected",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzinello/option-selected.git"
+  },
+  "author": "Matteo Manzinello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manzinello/option-selected/issues"
+  },
+  "homepage": "https://github.com/manzinello/option-selected#readme"
+}
